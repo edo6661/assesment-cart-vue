@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: "1",
+    name: "Air Jordan 1",
+    price: 100,
+    image: "/images/air-jordan-hero.jpg",
+    quantity: 0,
+  },
+  {
+    id: "2",
+    name: "Air Jordan 2",
+    price: 200,
+    image: "/images/air-jordan-hero-1.jpg",
+    quantity: 0,
+  },
+  {
+    id: "3",
+    name: "Air Jordan 3",
+    price: 300,
+    image: "/images/air-jordan-hero-2.jpg",
+    quantity: 100,
+  },
+  {
+    id: "4",
+    name: "Air Jordan 4",
+    price: 400,
+    image: "/images/air-jordan-hero-3.jpg",
+    quantity: 100,
+  },
+  {
+    id: "5",
+    name: "Air Jordan 5",
+    price: 500,
+    image: "/images/air-jordan-hero-4.jpg",
+    quantity: 100,
+  },
+  {
+    id: "6",
+    name: "Air Jordan 6",
+    price: 600,
+    image: "/images/air-jordan-hero-6.jpg",
+    quantity: 100,
+  },
+  {
+    id: "7",
+    name: "Air Jordan 7",
+    price: 700,
+    image: "/images/air-jordan-hero-7.jpg",
+    quantity: 100,
+  },
+];
