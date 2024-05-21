@@ -13,7 +13,7 @@ const toggle = () => (show.value = !show.value);
   <header class="py-4">
     <nav class="container fl-ic justify-between">
       <div>
-        <h1 class="text-2xl font-semibold">Logo</h1>
+        <img src="/images/logo.png" alt="Logo" class="object-cover h-20" />
       </div>
       <div class="fl-ic gap-4">
         <SwitchTheme />

@@ -20,10 +20,10 @@ onMounted(() => {
     <Transition name="show" appear>
       <div
         v-if="show"
-        class="fixed min-h-screen w-96 right-0 top-0 shadow-muted-foreground shadow-2xl p-4 dark:bg-primary-white/50 bg-primary-black/50 border-2 border-white/10 border-solid text-white overflow-y-auto"
+        class="fixed min-h-screen w-96 right-0 top-0 shadow-muted-foreground shadow-2xl p-4 z-50 bg-primary-black/50 border-2 border-white/10 border-solid text-white overflow-y-auto"
       >
         <div class="fl-ic justify-between">
-          <h3 class="text-xl">Your Cart</h3>
+          <h3 class="text-xl text-white">Your Cart</h3>
           <button @click="toggle">
             <Icon
               icon="zondicons:close-outline"
@@ -36,7 +36,7 @@ onMounted(() => {
         />
         <div>
           <div v-if="store.cart.length === 0">
-            <p class="text-center text-muted">Your cart is empty</p>
+            <p class="text-center">Your cart is empty</p>
           </div>
           <div v-else class="space-y-4">
             <div
