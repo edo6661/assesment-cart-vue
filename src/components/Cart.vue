@@ -17,7 +17,7 @@ const { quantityControl, removeFromCart } = store;
     <Transition name="show" appear>
       <div
         v-if="show"
-        class="fixed min-h-screen w-96 right-0 top-0 shadow-muted-foreground shadow-2xl p-4 z-50 bg-primary-black/50 border-2 border-white/10 border-solid text-white overflow-y-auto"
+        class="fixed min-h-screen sm:w-96 w-80 right-0 top-0 shadow-muted-foreground shadow-2xl p-4 z-50 bg-primary-black/50 border-2 border-white/10 border-solid text-white overflow-y-auto"
       >
         <div class="fl-ic justify-between">
           <h3 class="text-xl text-white">Your Cart</h3>

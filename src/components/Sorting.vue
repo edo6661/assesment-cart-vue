@@ -5,15 +5,15 @@ import Input from "./ui/input/Input.vue";
 const store = useProductStore();
 </script>
 <template>
-  <div class="fl-ic justify-between">
-    <div>
+  <div class="fl-ic justify-between flex-wrap">
+    <div class="flex-1">
       <Input
         placeholder="Search for products..."
         class="placeholder:italic placeholder:text-sm"
         v-model="store.search"
       />
     </div>
-    <div>
+    <div class="flex-1">
       <SortProduct />
     </div>
   </div>
