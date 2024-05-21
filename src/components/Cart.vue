@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Teleport, Transition, onMounted } from "vue";
+import { Teleport, Transition } from "vue";
 import { Icon } from "@iconify/vue";
 import { useProductStore } from "@/stores/productStore";
 import Button from "./ui/button/Button.vue";
@@ -11,9 +11,6 @@ defineProps<{
 
 const store = useProductStore();
 const { quantityControl, removeFromCart } = store;
-onMounted(() => {
-  console.log(store.cart);
-});
 </script>
 <template>
   <Teleport to="body">
